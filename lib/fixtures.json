@@ -1,0 +1,45 @@
+{
+  "users": [
+    { "email": "admin@test.ru", "name": "Администратор", "password": "password123" },
+    { "email": "ivanov@test.ru", "name": "Иван Иванов", "password": "password123" },
+    { "email": "petrova@test.ru", "name": "Мария Петрова", "password": "password123" },
+    { "email": "sidorov@test.ru", "name": "Сергей Сидоров", "password": "password123" }
+  ],
+  "tasks": [
+    {
+      "title": "Подготовить квартальный отчёт",
+      "description": "Собрать данные по продажам и подготовить сводный отчёт за квартал.",
+      "assignee": "ivanov@test.ru",
+      "deadlineOffsetDays": -3,
+      "status": "В работе"
+    },
+    {
+      "title": "Обновить инструкцию для сотрудников",
+      "description": "Актуализировать внутреннюю инструкцию по работе с клиентами.",
+      "assignee": "petrova@test.ru",
+      "deadlineOffsetDays": -1,
+      "status": "Новая"
+    },
+    {
+      "title": "Провести встречу с командой",
+      "description": "Согласовать план работ на следующую неделю.",
+      "assignee": "sidorov@test.ru",
+      "deadlineOffsetDays": 0,
+      "status": "Новая"
+    },
+    {
+      "title": "Настроить резервное копирование",
+      "description": "Организовать ежедневное резервное копирование базы данных.",
+      "assignee": "admin@test.ru",
+      "deadlineOffsetDays": 5,
+      "status": "В работе"
+    },
+    {
+      "title": "Закрыть тикеты поддержки",
+      "description": "Обработать накопившиеся обращения пользователей.",
+      "assignee": "ivanov@test.ru",
+      "deadlineOffsetDays": -5,
+      "status": "Выполнена"
+    }
+  ]
+}
